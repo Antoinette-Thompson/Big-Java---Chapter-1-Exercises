@@ -15,6 +15,7 @@ public class DialogTester
 		JOptionPane.showMessageDialog(null,("Hello, "+(name)+"!"));
 		
 		JOptionPane.showInputDialog("What would you like me to do?");
+		//Ignores new user input and customizes the message with the initial user input.
 		JOptionPane.showMessageDialog(null, ("I'm sorry, ")+(name)+(". I'm afraid I can't do that."));
 		
 		
