@@ -65,6 +65,11 @@ public class variablePractice
 	String newGreeting = greeting.replace("World", "Dave");
 	printer.println(newGreeting);
 	
+	/* new ClassName(parameters)
+	 * To construct a new object, initialize it with the construction
+	 * parameters, and return a reference to the constructed object. 
+	 */
 	
+		
 	}
 }
