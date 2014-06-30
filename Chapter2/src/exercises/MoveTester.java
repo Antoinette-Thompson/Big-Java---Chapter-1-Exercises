@@ -52,10 +52,12 @@ public class MoveTester
 	 */
 		
 		Rectangle question = new Rectangle(75, 75, 50, 50);
-		Rectangle questionA = question;
-		
+		question.getWidth();
+		question.getHeight();
+				
 		String questions = new String("Hello, Dave!");
-		String questionsB = questions;
+		System.out.println(questions);
+				
 		//An object is the particular instance, while an object variable creates a reference.
 		
 	}
